@@ -6,6 +6,12 @@
 
 [![A real pass through the architecture, arrow by arrow, with the deliverables the system really produced (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)
 
+<details><summary>French version</summary>
+
+[![Un passage réel dans l'architecture, flèche par flèche, avec les livrables que le système a vraiment produits (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/100F2MAstyJsTTwLqoc2QPzl3bRU8SR21/view)
+
+</details>
+
 *Real deliverables of test projects, March and April 2026. [Full video (1:20)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)*
 
 ## Using it

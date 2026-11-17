@@ -6,7 +6,13 @@
 
 [![Un passage réel dans l'architecture, flèche par flèche, avec les livrables que le système a vraiment produits (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)
 
-*Vrais livrables de projets de test, mars et avril 2026 ; animation en anglais. [Vidéo complète (1:20)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)*
+<details><summary>Animation en français</summary>
+
+[![Un passage réel dans l'architecture, flèche par flèche, avec les livrables que le système a vraiment produits (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/100F2MAstyJsTTwLqoc2QPzl3bRU8SR21/view)
+
+</details>
+
+*Vrais livrables de projets de test, mars et avril 2026. [Vidéo complète (1:20)](https://drive.google.com/file/d/100F2MAstyJsTTwLqoc2QPzl3bRU8SR21/view)*
 
 ## Ce qu'on fait avec
 
