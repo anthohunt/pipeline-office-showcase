@@ -1,44 +1,34 @@
 **English** · [Français](README.fr.md)
 
-**Anthony Hunt** · [Project page on ingevision.cloud](https://ingevision.cloud/?lang=en&p=pipeline-office) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub profile](https://github.com/anthohunt)
+# Pipeline Office
 
-> Showcase repository: the code and data of this project are private; this README describes it.
+**A Discord server where an AI Manager walked a software project from the first idea to built code, one step at a time, with a person clicking “Next step” between each one.**
 
-# Pipeline Office (first attempt, 2026)
+[![A real pass through the architecture, arrow by arrow, with the deliverables the system really produced (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)
 
-A Discord server where a team of AI agents guided a software project from the idea to the specification, then to the build.
+*A pass through the system, arrow by arrow, with real deliverables from its test projects (March and April 2026). [Full video (1:20)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)*
 
-## The problem
+## Using it
 
-Going from a vague idea to built software means asking the right questions, making mockups, keeping notes and splitting the work. Pipeline Office was meant to do this inside a chat channel, with one or several people. Each project had its own channel. It was a personal experiment in multi-agent orchestration, run from February to April 2026.
+- **One channel per project.** `/create-project` opens it; a bot with no AI asks the language, then shows a Start button.
+- **A Manager leads.** It reads the current step and asks questions, always with a suggestion first, in plain language.
+- **Claude Code does the work.** Architecture map, mockups, user stories, roadmap, then the code, epic by epic; results come back in the channel and mockups go online.
+- **You set the pace.** A toolbar under each answer: *I'm lost*, *Feedback*, *Save checkpoint*, *Next step* (with a short rating). `/where`, `/step` and `/project-memory` show where you are.
+- **Voice works too.** `/listen` transcribes what you say in a voice channel.
 
-## How it works
+## Architecture
 
-- A "Manager" agent creates the project channel, asks the questions, challenges weak ideas but follows the user's decision.
-- A "Storm" agent produces HTML mockups for each section; a "NoteBot" agent keeps the notes thread and the project memory.
-- A bot with no language model handles setup (language, tone, new or existing project), voice transcription and navigation between steps.
-- The flow follows a file of steps: brainstorm, then a specification, which must be explicitly approved before the build.
-- The build goes epic by epic: a coding agent works on its own, reports completion or error in the channel, and the user reviews.
+![Pipeline Office architecture: you write in the project channel; the Pipeline-System bot handles setup and the toolbar; the Manager, run by an OpenClaw gateway, reads the current step and asks questions; it hands tasks to a Claude Code session for that channel, which publishes mockups online and posts results back through a webhook; “Next step” moves the workflow on](docs/architecture.en.svg)
 
-## What is built
+*Seven steps: welcome, concept and app design, specifications and roadmap, pre-implementation, build, story reconciliation, QA and handoff. Diagram in French: [architecture.svg](docs/architecture.svg).*
 
-- An OpenClaw gateway that runs the agents, with hooks that inject context and memory.
-- A service Discord bot: `/where`, `/step`, `/project-memory`, `/listen`, `/debug` commands, alerts when the main agent's memory reaches 70% then 85%.
-- French voice transcription through a local faster-whisper server.
-- Static tests and live tests on Discord.
-- The main repository has 86 commits and 13 agent workspaces; it also holds two trial applications (an economic indicators dashboard, a beer game).
+## Status
 
-Status: stopped. Shutting down the gateway was decided on 12 April 2026; the project was replaced by Flux, the pipeline engine that followed.
+- **Stopped.** Built from 4 February to 3 April 2026 (514 commits), on a Windows PC; shutting the gateway down was decided on 12 April 2026.
+- **Tried on test projects.** A Gantt planner, a retro-gaming tournament manager, a web app for a one-day course.
+- **Two architectures.** First one bot per role (mockups, notes, code); from 2 April 2026, a single Claude Code session per channel replaced them.
+- **Private code.** Only this showcase is public.
 
-## What is public
+---
 
-Only this showcase is public; the code stays private.
-
-## Tech stack
-
-- Node.js, TypeScript, JavaScript
-- OpenClaw
-- discord.js, @discordjs/voice
-- faster-whisper (large-v3 model)
-- PowerShell
-- Playwright (trial applications)
+**Anthony Hunt** · [ingevision.cloud](https://ingevision.cloud/?lang=en&p=pipeline-office) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub](https://github.com/anthohunt)
