@@ -2,19 +2,19 @@
 
 # Pipeline Office
 
-**A Discord server where an AI Manager walked a software project from the first idea to built code, one step at a time, with a person clicking “Next step” between each one.**
+**A Discord server where an AI Manager walked a software project from the first idea to built code, one step at a time, with a person clicking “Next step” between steps.**
 
 [![A real pass through the architecture, arrow by arrow, with the deliverables the system really produced (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)
 
-*A pass through the system, arrow by arrow, with real deliverables from its test projects (March and April 2026). [Full video (1:20)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)*
+*Real deliverables of test projects, March and April 2026. [Full video (1:20)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)*
 
 ## Using it
 
-- **One channel per project.** `/create-project` opens it; a bot with no AI asks the language, then shows a Start button.
+- **One channel per project.** `/create-project` opens it; a bot with no language model asks the language, then shows a Start button.
 - **A Manager leads.** It reads the current step and asks questions, always with a suggestion first, in plain language.
 - **Claude Code does the work.** Architecture map, mockups, user stories, roadmap, then the code, epic by epic; results come back in the channel and mockups go online.
-- **You set the pace.** A toolbar under each answer: *I'm lost*, *Feedback*, *Save checkpoint*, *Next step* (with a short rating). `/where`, `/step` and `/project-memory` show where you are.
-- **Voice works too.** `/listen` transcribes what you say in a voice channel.
+- **You set the pace.** A toolbar under each answer: *I'm lost*, *Feedback*, *Save checkpoint*, *Next step* (with a short rating). `/where` and `/project-memory` show where you are; `/step` jumps to a step.
+- **Voice works too.** `/listen` transcribes French speech from a voice channel.
 
 ## Architecture
 
