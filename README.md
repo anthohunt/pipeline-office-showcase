@@ -18,9 +18,15 @@
 
 ## Architecture
 
-![Pipeline Office architecture: you write in the project channel; the Pipeline-System bot handles setup and the toolbar; the Manager, run by an OpenClaw gateway, reads the current step and asks questions; it hands tasks to a Claude Code session for that channel, which publishes mockups online and posts results back through a webhook; “Next step” moves the workflow on](docs/architecture.en.svg)
+![Pipeline Office architecture: you write in the project channel; the Pipeline-System bot handles setup and the toolbar; the Manager, run by an OpenClaw gateway, reads the current step and asks questions; it hands tasks to a Claude Code session for that channel, which publishes mockups online and posts results back through a webhook; “Next step” moves the workflow on](docs/architecture.svg)
 
-*Seven steps: welcome, concept and app design, specifications and roadmap, pre-implementation, build, story reconciliation, QA and handoff. Diagram in French: [architecture.svg](docs/architecture.svg).*
+<details><summary>French version</summary>
+
+![Architecture de Pipeline Office : vous écrivez dans le salon du projet ; le bot Pipeline-System gère les réglages et les boutons ; le Manager, porté par une passerelle OpenClaw, lit l'étape en cours et pose les questions ; il confie les tâches à une session Claude Code propre au salon, qui met les maquettes en ligne et renvoie les résultats par un webhook ; « Next step » fait avancer le déroulé](docs/architecture.fr.svg)
+
+</details>
+
+*Seven steps: welcome, concept and app design, specifications and roadmap, pre-implementation, build, story reconciliation, QA and handoff.*
 
 ## Status
 

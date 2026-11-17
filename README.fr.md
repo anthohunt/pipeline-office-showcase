@@ -20,7 +20,13 @@
 
 ![Architecture de Pipeline Office : vous écrivez dans le salon du projet ; le bot Pipeline-System gère les réglages et les boutons ; le Manager, porté par une passerelle OpenClaw, lit l'étape en cours et pose les questions ; il confie les tâches à une session Claude Code propre au salon, qui met les maquettes en ligne et renvoie les résultats par un webhook ; « Next step » fait avancer le déroulé](docs/architecture.svg)
 
-*Sept étapes : accueil, concept et conception de l'appli, cahier des charges et feuille de route, préparation, construction, rapprochement des histoires, recette et remise. Schéma en anglais : [architecture.en.svg](docs/architecture.en.svg).*
+<details><summary>Diagramme en français</summary>
+
+![Architecture de Pipeline Office : vous écrivez dans le salon du projet ; le bot Pipeline-System gère les réglages et les boutons ; le Manager, porté par une passerelle OpenClaw, lit l'étape en cours et pose les questions ; il confie les tâches à une session Claude Code propre au salon, qui met les maquettes en ligne et renvoie les résultats par un webhook ; « Next step » fait avancer le déroulé](docs/architecture.fr.svg)
+
+</details>
+
+*Sept étapes : accueil, concept et conception de l'appli, cahier des charges et feuille de route, préparation, construction, rapprochement des histoires, recette et remise.*
 
 ## État
 
