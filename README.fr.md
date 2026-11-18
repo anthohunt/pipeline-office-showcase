@@ -4,15 +4,15 @@
 
 **Un serveur Discord où un Manager IA menait un projet logiciel de la première idée au code construit, une étape à la fois, une personne cliquant sur « Next step » pour passer à la suivante.**
 
-[![Un passage réel dans l'architecture, flèche par flèche, avec les livrables que le système a vraiment produits (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/1AgtCbBvHznlDH22xS-a1iaI28_zPqnuS/view)
+![Un passage réel dans l'architecture, flèche par flèche, avec les livrables que le système a vraiment produits](docs/demo.gif)
 
 <details><summary>Version française</summary>
 
-[![Un passage réel dans l'architecture, flèche par flèche, avec les livrables que le système a vraiment produits (cliquer pour la vidéo complète)](docs/demo.fr.gif)](https://drive.google.com/file/d/100F2MAstyJsTTwLqoc2QPzl3bRU8SR21/view)
+![Un passage réel dans l'architecture, flèche par flèche, avec les livrables que le système a vraiment produits](docs/demo.fr.gif)
 
 </details>
 
-*Vrais livrables de projets de test, mars et avril 2026. [Vidéo complète (1:20)](https://drive.google.com/file/d/100F2MAstyJsTTwLqoc2QPzl3bRU8SR21/view)*
+*Vrais livrables de projets de test, mars et avril 2026.*
 
 ## Ce qu'on fait avec
 
